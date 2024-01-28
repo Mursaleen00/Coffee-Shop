@@ -12,7 +12,7 @@ function Steps() {
           <div className="relative lg:flex justify-around">
             <div
               className="absolute lg:border-b-4 border-4 border-l-0 lg:border-0
-             border-theme-first-color-light border-dashed rounded-full h-[630px] sm:h-[900px] lg:h-[650px] w-[80%] sm:w-[90%] lg:w-[60%] sm:-top-7  top-12 lg:-top-60"
+             border-theme-first-color-light border-dashed rounded-full h-[630px] sm:h-[900px] lg:h-[650px] w-[80%] sm:w-[90%] lg:w-[70%] sm:-top-7  top-12 lg:-top-60"
             />
             <div className="relative">
               <div className="absolute text-[24px] lg:text-[36px] text-theme-first-color w-[50px] h-[50px] lg:w-[85px] lg:h-[85px] text-center rounded-full flex justify-center items-center font-poppins font-semibold bg-theme-second-color border-8 border-theme-first-color">
