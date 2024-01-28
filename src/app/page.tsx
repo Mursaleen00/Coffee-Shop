@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import History from "@/components/History";
 import Navbar from "@/components/Navbar";
@@ -14,6 +15,7 @@ export default function Home() {
       <History />
       <Steps />
       <Banner />
+      <Footer />
     </div>
   );
 }
