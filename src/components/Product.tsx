@@ -21,7 +21,7 @@ function Product() {
     },
   ];
   return (
-    <div className=" bg-theme-first-color rounded-t-[54px] md:rounded-t-[104px] absolute -mt-36 flex-col flex lg:flex-row justify-center lg:justify-around w-full items-end lg:px-[150px] px-4 pb-[172px] pt-10 lg:pt-[140px] gap-y-10">
+    <div className="bg-theme-first-color rounded-t-[54px] md:rounded-t-[104px] -mt-36 flex-col flex lg:flex-row justify-center lg:justify-around w-full items-end lg:px-[150px] px-4 pb-[172px] pt-10 lg:pt-[140px] gap-y-10">
       <div className="flex flex-col gap-y-8 lg:w-[447px] w-full items-center lg:items-start justify-center">
         <Button
           text="Scroll Down"
