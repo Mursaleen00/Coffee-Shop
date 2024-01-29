@@ -29,7 +29,7 @@ function Product() {
           iconLink="/icon/down.svg"
           className="text-white bg-theme-first-color-alt shadow-btn-shadow-2"
         />
-        <p className="text-white font-normal font-poppins text-lg text-center lg:text-start">
+        <p className="text-white font-normal font-poppins text-sm md:text-lg text-center lg:text-start">
           We strive to form deep partnerships with farmers from all over the
           world to create perspective together and form healthy working
           relationships built on trust and respect.
@@ -45,7 +45,7 @@ function Product() {
                 width={120}
                 height={168}
               />
-              <h1 className="flex flex-col text-center text-white font-pacifico text-[20px]">
+              <h1 className="flex flex-col text-center text-white font-pacifico text-[16px] md:text-[20px]">
                 {items.title}
                 <span>{items.price}</span>
               </h1>

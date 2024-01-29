@@ -12,7 +12,7 @@ function Button(props: ButtonProps) {
   return (
     <div>
       <button
-        className={`px-7 flex gap-x-2 items-center text-lg font-semibold rounded-full font-poppins py-4 w-full ${
+        className={`px-7 flex gap-x-2 items-center text-sm md:text-lg font-semibold rounded-full font-poppins py-4 w-full ${
           className
             ? `${className}`
             : "bg-theme-second-color text-theme-title-color shadow-btn-shadow w-full"

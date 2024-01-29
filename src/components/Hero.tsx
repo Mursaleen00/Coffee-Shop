@@ -15,10 +15,10 @@ function Hero() {
         />
       </div>
       <div className="flex flex-col gap-y-6 md:w-[447px]">
-        <p className="text-theme-second-color text-sm font-medium font-poppins text-center md:text-start">
+        <p className="text-theme-second-color text-sm md:text-lg font-medium font-poppins text-center md:text-start">
           EXCEPTIONAL QUALITY
         </p>
-        <h1 className="font-pacifico text-[52px] text-white text-center md:text-start">
+        <h1 className="font-pacifico text-[32px]  md:text-[52px] text-white text-center md:text-start">
           It's time for a good coffee
           {/* <Image
             alt=""
@@ -27,7 +27,7 @@ function Hero() {
             height={124}
           /> */}
         </h1>
-        <p className="font-poppins text-sm font-normal text-white text-center md:text-start">
+        <p className="font-poppins text-sm md:text-lg font-normal text-white text-center md:text-start">
           Each select coffee bean reflects our commitment to Peruvian coffee
           growers, who bring the best select coffee to your table.
         </p>

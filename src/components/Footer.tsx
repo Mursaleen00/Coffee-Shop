@@ -33,9 +33,9 @@ function Footer() {
               <button className="px-7 flex gap-x-2 items-center text-lg font-semibold rounded-full font-poppins py-4 w-full max-w-[400px] bg-theme-second-color text-theme-title-color shadow-btn-shadow ">
                 Subscription
               </button>
-              <p className="text-sm text-white font-poppins">
+              <p className="text-sm text-white font-poppins text-center">
                 We care about your data. Read our
-                <span className="text-theme-second-color">Privacy Policy</span>
+                <span className="text-theme-second-color"> Privacy Policy</span>
               </p>
             </div>
           </div>
@@ -59,9 +59,11 @@ function Footer() {
               height={32}
             />
           </div>
-          <p className="absolute bottom-5 text-theme-text-color text-sm font-poppins text-center w-full">
-          &#169; Copyright Mursaleen Ansari. All rights reserved
-          </p>
+          <div className="relative">
+            <p className="absolute top-32 text-theme-text-color text-sm font-poppins text-center w-full">
+              &#169; Copyright Mursaleen Ansari. All rights reserved
+            </p>
+          </div>
         </div>
       </div>
     </div>

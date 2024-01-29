@@ -10,10 +10,10 @@ function Navbar() {
       </div>
       <div className="hidden md:flex">
         <ul className="flex gap-x-20 text-white font-normal text-sm font-pacifico">
-          <li className="text-theme-second-color">Home</li>
-          <li>About</li>
-          <li>Steps</li>
-          <li>Testimonial</li>
+          <li className="text-theme-second-color cursor-pointer">Home</li>
+          <li className="cursor-pointer">About</li>
+          <li className="cursor-pointer">Steps</li>
+          <li className="cursor-pointer">Testimonial</li>
         </ul>
       </div>
     </div>
