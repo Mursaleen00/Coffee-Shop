@@ -1,8 +1,16 @@
-import React from "react";
+"use client";
 import Button from "./Button";
 import Image from "next/image";
-
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Product() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration
+      once: true, // Whether animation should happen only once
+    });
+  }, []);
   const product = [
     {
       title: "Classic Coffee",
@@ -22,7 +30,10 @@ function Product() {
   ];
   return (
     <div className="bg-theme-first-color rounded-t-[54px] md:rounded-t-[104px] -mt-36 flex-col flex lg:flex-row justify-center lg:justify-around w-full items-end lg:px-[150px] px-4 pb-[172px] pt-10 lg:pt-[140px] gap-y-10">
-      <div className="flex flex-col gap-y-8 lg:w-[447px] w-full items-center lg:items-start justify-center">
+      <div
+        className="flex flex-col gap-y-8 lg:w-[447px] w-full items-center lg:items-start justify-center"
+        data-aos="fade-right"
+      >
         <Button
           text="Scroll Down"
           icon
@@ -38,7 +49,16 @@ function Product() {
       <div className="flex justify-evenly gap-8 flex-wrap w-full">
         {product.map((items: any, index: number) => {
           return (
-            <div key={index}>
+            <div
+              key={index}
+              data-aos={`${
+                index == 0
+                  ? "fade-left"
+                  : index == 2
+                  ? "fade-right"
+                  : "fade-top"
+              }`}
+            >
               <Image
                 alt={items.title}
                 src={`${items.img}`}
