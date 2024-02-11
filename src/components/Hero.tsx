@@ -15,7 +15,7 @@ function Hero() {
   }, []);
   return (
     <div className="bg-theme-first-color-alt flex justify-center py-16 items-center flex-col-reverse md:flex-row px-6 gap-y-7 pb-40">
-      <div className="" data-aos="fade-right">
+      <div data-aos="fade-right">
         <Image
           alt="home-coffee"
           src={"/image/home-coffee.svg"}
