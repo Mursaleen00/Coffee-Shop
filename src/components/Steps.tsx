@@ -47,7 +47,7 @@ function Steps() {
                 />
               </div>
               <p
-                className="font-poppins text-white md:text-lg text-sm w-[272px] mt-10"
+                className="font-poppins text-white md:text-lg text-sm w-full max-w-[272px] mt-10"
                 data-aos="fade-right"
                 data-aos-duration="2500"
               >
@@ -60,7 +60,7 @@ function Steps() {
               data-aos="flip-right"
               data-aos-duration="2500"
             >
-              <p className="font-poppins text-white md:text-lg text-sm w-[272px] mb-10 hidden lg:flex">
+              <p className="font-poppins text-white md:text-lg text-sm w-full max-w-[272px] mb-10 hidden lg:flex">
                 The beans are dried using a wet or dry technique, depending on
                 the taste we want to obtain.
               </p>
@@ -105,7 +105,7 @@ function Steps() {
                 />
               </div>
               <p
-                className="font-poppins text-white md:text-lg text-sm w-[272px] mt-10"
+                className="font-poppins text-white md:text-lg text-sm w-full max-w-[272px] mt-10"
                 data-aos="fade-left"
                 data-aos-duration="2500"
               >
