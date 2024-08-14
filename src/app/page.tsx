@@ -8,7 +8,7 @@ import Steps from "@/components/Steps";
 
 export default function Home() {
   return (
-    <>
+    <div className="w-full overflow-x-hidden max-w-screen">
       <Navbar />
       <Hero />
       <Product />
@@ -16,6 +16,6 @@ export default function Home() {
       <Steps />
       <Banner />
       <Footer />
-    </>
+    </div>
   );
 }

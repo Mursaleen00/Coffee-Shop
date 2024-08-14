@@ -28,7 +28,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${pacifico.variable}`}>
+      <body
+        className={`${poppins.variable} ${pacifico.variable} w-screen overflow-x-hidden`}
+      >
         {children}
       </body>
     </html>
